@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The wisdom workshop</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="assets/estd 2023.png" alt="logo" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fa-solid fa-xmark"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- <img id="menu-btn" src="assets/menu.png" alt="" /> -->
+        <i id="menu-btn" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="about-home">
+      <h2>About Wisdom Workshop/</h2>
+    </section>
+
+    <section id="about-box">
+      <div class="about-img">
+        <img src="assets/a.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>Welcome to TechEduca, enhance your skills with best online courses</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem a mollitia
+          amet, consequuntur ratione itaque iure, maiores velit commodi, quibusdam
+          odit quasi vel molestiae quod incidunt animi ipsum ducimus cumque?
+        </p>
+        <div class="about-fe">
+          <img src="assets/fe1.png" alt="" />
+          <div class="fe-text">
+            <h5>400+ courses</h5>
+            <p>You can start and finish one of these courses in under our site</p>
+          </div>
+        </div>
+        <div class="about-fe">
+          <img src="assets/fe2.png" alt="" />
+          <div class="fe-text">
+            <h5>Lifetime access</h5>
+            <p>You can start and finish one of these courses in under our site</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features">
+      <h1>Awesome features</h1>
+      <p>Replenish man have thing gathering lights yielding shall you</p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Scholarship facility</h3>
+          <p>One make creepth, man bearing thiera firamnent won't great heaven</p>
+        </div>
+        <div class="fea-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Global Certification</h3>
+          <p>One make creepth, man bearing thiera firamnent won't great heaven</p>
+        </div>
+        <div class="fea-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Skill courses</h3>
+          <p>One make creepth, man bearing thiera firamnent won't great heaven</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trust">
+      <h1>Trusted by</h1>
+      <p>Replenish your feature with these awesome courses</p>
+      <div class="trust-img">
+        <img src="assets/trust (1).png" alt="" />
+        <img src="assets/trust (2).png" alt="" />
+        <img src="assets/trust (3).png" alt="" />
+        <img src="assets/trust (4).png" alt="" />
+        <img src="assets/trust (5).png" alt="" />
+        <img src="assets/trust (6).png" alt="" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Researches</li>
+        <li>Exoertise</li>
+        <li>Managed website</li>
+        <li>marketing service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Researches</li>
+        <li>Exoertise</li>
+        <li>Managed website</li>
+        <li>marketing service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Researches</li>
+        <li>Exoertise</li>
+        <li>Managed website</li>
+        <li>marketing service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Researches</li>
+        <li>Exoertise</li>
+        <li>Managed website</li>
+        <li>marketing service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us, we only send promo offers.</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your email address" />
+          <a href="#" class="yellow">subscribe</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Navaigation Bar
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
