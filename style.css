@@ -209,6 +209,7 @@ nav .navigation ul li a:hover {
   background-color: #f9f9ff;
   height: 100%;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 #course .courses img {
