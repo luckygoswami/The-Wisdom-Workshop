@@ -940,3 +940,6 @@ nav .navigation ul li a:hover {
     width: 100%;
   }
 }
+.star {
+  display: none;
+}
